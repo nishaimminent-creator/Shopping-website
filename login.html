@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sign In or Create Account — Vesterra</title>
+<meta name="description" content="Sign in to your Vesterra account or create a new one to access exclusive offers, faster checkout, and order tracking.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="top-bar"><div class="container"><span><i class="fas fa-truck-fast"></i> &nbsp; Complimentary Shipping on Orders Over $75 &nbsp; · &nbsp; Easy 30-Day Returns</span></div></div>
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="brand-logo" href="index.html"><i class="fas fa-feather"></i> VESTERRA</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMain"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="featured.html">Featured</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="blog.html">Journal</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="login.html" class="active"><i class="far fa-user"></i></a>
+        <a href="#"><i class="far fa-heart"></i></a>
+        <a href="#"><i class="fas fa-bag-shopping"></i><span class="cart-badge">2</span></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header" style="padding:90px 0 60px">
+  <span class="eyebrow" style="color:#f3d9b5">Account</span>
+  <h1>Welcome Back</h1>
+  <div class="breadcrumb-custom"><a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Account</span></div>
+</header>
+
+<!-- 1 LIGHT login -->
+<section class="section band-light" id="signin">
+  <div class="container">
+    <div class="auth-wrap reveal">
+      <div class="auth-image"><div class="auth-quote">"Style is a way to say who you are without having to speak."</div></div>
+      <div class="auth-form">
+        <span class="eyebrow">Sign In</span>
+        <h2>Welcome Back</h2>
+        <p class="sub">Access your orders, wishlist, and account preferences.</p>
+        <form class="demo-form">
+          <div class="form-group"><label>Email Address</label><input type="email" placeholder="you@example.com" required></div>
+          <div class="form-group"><label>Password</label><input type="password" placeholder="••••••••" required></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;font-size:.85rem;margin-bottom:14px">
+            <label style="color:var(--muted)"><input type="checkbox"> Remember me</label>
+            <a href="#" style="color:var(--clay);font-weight:600">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-arrow-right-to-bracket"></i> Sign In</button>
+        </form>
+        <div class="divider-or">or continue with</div>
+        <div class="social-auth">
+          <a href="#"><i class="fab fa-google"></i> Google</a>
+          <a href="#"><i class="fab fa-apple"></i> Apple</a>
+        </div>
+        <div class="auth-extra">New to Vesterra? <a href="#register">Create an account</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 DARK register -->
+<section class="section band-dark" id="register">
+  <div class="container">
+    <div class="auth-wrap reveal">
+      <div class="auth-form">
+        <span class="eyebrow">Create Account</span>
+        <h2>Join the Studio</h2>
+        <p class="sub">Members enjoy early access to new arrivals, private sales, and 10% off the first order.</p>
+        <form class="demo-form">
+          <div class="row">
+            <div class="col-md-6 form-group"><label>First Name</label><input type="text" required></div>
+            <div class="col-md-6 form-group"><label>Last Name</label><input type="text" required></div>
+          </div>
+          <div class="form-group"><label>Email Address</label><input type="email" required></div>
+          <div class="form-group"><label>Password</label><input type="password" required></div>
+          <div class="form-group"><label>Confirm Password</label><input type="password" required></div>
+          <label style="font-size:.85rem;color:var(--muted);display:flex;gap:8px;margin-bottom:14px">
+            <input type="checkbox" required> I agree to the <a href="#" style="color:var(--clay)">Terms</a> &amp; <a href="#" style="color:var(--clay)">Privacy Policy</a>
+          </label>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-user-plus"></i> Create Account</button>
+        </form>
+        <div class="auth-extra">Already a member? <a href="#signin">Sign in here</a></div>
+      </div>
+      <div class="auth-image" style="background-image:url('images/hero1.jpg')"><div class="auth-quote">"Fewer things, beautifully made — that is the simplest definition of luxury we know."</div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about"><div class="brand-logo"><i class="fas fa-feather"></i> VESTERRA</div><p>Thoughtfully designed clothing for the modern American wardrobe — crafted with intention, built to last, and made to be lived in.</p><div class="footer-social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-pinterest-p"></i></a><a href="#"><i class="fab fa-tiktok"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-x-twitter"></i></a></div></div>
+      <div><h4>Shop</h4><ul><li><a href="shop.html">New Arrivals</a></li><li><a href="shop.html">Women</a></li><li><a href="shop.html">Men</a></li><li><a href="shop.html">Footwear</a></li><li><a href="shop.html">Accessories</a></li></ul></div>
+      <div><h4>About</h4><ul><li><a href="about.html">Our Story</a></li><li><a href="about.html">Sustainability</a></li><li><a href="blog.html">Journal</a></li><li><a href="featured.html">Lookbook</a></li><li><a href="#">Careers</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="contact.html">Customer Care</a></li><li><a href="#">Shipping &amp; Returns</a></li><li><a href="#">Size Guide</a></li><li><a href="#">FAQ</a></li><li><a href="login.html">My Account</a></li></ul><div class="payment-icons"><i class="fab fa-cc-visa"></i><i class="fab fa-cc-mastercard"></i><i class="fab fa-cc-amex"></i><i class="fab fa-cc-paypal"></i><i class="fab fa-cc-apple-pay"></i></div></div>
+    </div>
+    <div class="footer-bottom">© 2025 Vesterra Studio · Crafted with care in New York</div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
